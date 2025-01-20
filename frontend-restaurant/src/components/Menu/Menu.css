@@ -1,0 +1,11 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu h1{
+    color: #272727;
+    font-weight: 500;
+    
+}
