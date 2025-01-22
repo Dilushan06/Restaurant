@@ -50,7 +50,7 @@
     margin: 10px 0px;
 }
 
-.cart-total button{
+.cart-bottom .cart-total button{
     border: none;
     color: white;
     background-color: tomato;
