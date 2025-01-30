@@ -7,6 +7,7 @@ import Order from "./pages/Order/Order";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Login from "./components/Login/Login";
+import Verify from "./pages/Verify/verify";
 
 function App() {
 
@@ -21,6 +22,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/order" element={<Order />} />
+        <Route path='/verify' element={<Verify/>}/>
+        
       </Routes>
     </div>
     <Footer/>
